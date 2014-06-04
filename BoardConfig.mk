@@ -23,5 +23,8 @@ TARGET_RECOVERY_FSTAB := device/samsung/janice/rootdir/fstab.samsungjanice
 # Hardware tunables (device parts replacement)
 BOARD_HARDWARE_CLASS := device/samsung/janice/cmhw
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Disable legacy sensors using because janice has gyro
 BOARD_USE_LEGACY_SENSORS_FUSION := false
