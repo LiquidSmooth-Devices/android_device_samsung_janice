@@ -7,15 +7,15 @@
    },
    {
     "remote": "gh",
-    "revision": "master",
-    "repository": "TeamCanjica/android_packages_apps_DeviceSettings",
-    "target_path": "packages/apps/DeviceSettings"
-   },
-   {
-    "remote": "gh",
     "revision": "3.0.101",
     "repository": "TeamCanjica/Samsung_STE_Kernel",
     "target_path": "kernel/samsung/u8500"
+   },
+   {
+    "remote": "gh",
+    "revision": "master",
+    "repository": "TeamCanjica/android_packages_apps_DeviceSettings",
+    "target_path": "packages/apps/DeviceSettings"
    },
    {
     "remote": "gh",
@@ -34,5 +34,19 @@
     "revision": "cm-11.0",
     "repository": "TeamCanjica/android_vendor_samsung_u8500-common",
     "target_path": "vendor/samsung/u8500-common"
+   },
+   {
+    "remote": "aosp",
+    "revision": "master",
+    "repository": "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
+    "groups": "pdk,linux,arm"
+   },
+   {
+    "remote": "aosp",
+    "revision": "master",
+    "repository": "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8",
+    "groups": "pdk,linux,arm"
    }
 ]
